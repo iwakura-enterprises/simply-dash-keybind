@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "simply-dash-keybind",
+  "id": "simplydashkeybind",
   "version": "${version}",
   "name": "Simply Dash Keybind",
   "description": "Simply Dash Keybind",
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/simply-dash-keybind/icon.png",
+  "icon": "assets/simplydashkeybind/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
