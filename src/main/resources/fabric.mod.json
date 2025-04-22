@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "simply-dash-keybind",
+  "version": "${version}",
+  "name": "Simply Dash Keybind",
+  "description": "Simply Dash Keybind",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/simply-dash-keybind/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "enterprises.iwakura.simplydashkeybind.client.SimplyDashKeybindModClient"
+    ],
+    "main": [
+      "enterprises.iwakura.simplydashkeybind.SimplyDashKeybindMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
