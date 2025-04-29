@@ -1,7 +1,0 @@
-{
-  "key.simplydashkeybind.dash": "Dash",
-  "category.simplydashkeybind.dash": "Simply Dash Keybind",
-  "text.simplydashkeybind.dash_ready": "§aDash is ready!",
-  "text.simplydashkeybind.dash_cooldown": "§cDash cooldown: %s§cs",
-  "enchantment.simplydashkeybind.dash": "Dash"
-}

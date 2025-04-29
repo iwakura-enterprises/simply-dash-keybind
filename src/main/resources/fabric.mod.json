@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "simplydashkeybind",
+  "id": "simpledashkeybind",
   "version": "${version}",
   "name": "Simply Dash Keybind",
-  "description": "Simply Dash Keybind",
+  "description": "As the name says - adds Simple Dash Keybind!",
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/simplydashkeybind/icon.png",
-  "environment": "client",
+  "icon": "assets/simpledashkeybind/icon.png",
+  "environment": "*",
   "entrypoints": {
     "client": [
-      "enterprises.iwakura.simplydashkeybind.client.SimplyDashKeybindModClient"
+      "enterprises.iwakura.simpledashkeybind.client.SimpleDashKeybindModClient"
     ],
     "main": [
-      "enterprises.iwakura.simplydashkeybind.SimplyDashKeybindMod"
+      "enterprises.iwakura.simpledashkeybind.SimpleDashKeybindMod"
     ]
   },
   "depends": {

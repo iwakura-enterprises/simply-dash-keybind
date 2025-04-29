@@ -14,7 +14,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        "simplydashkeybind" {
+        "simpledashkeybind" {
             sourceSet sourceSets.main
             sourceSet sourceSets.client
         }

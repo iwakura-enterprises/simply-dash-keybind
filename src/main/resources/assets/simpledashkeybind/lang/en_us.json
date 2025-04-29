@@ -1,0 +1,9 @@
+{
+  "key.simpledashkeybind.dash": "Dash",
+  "category.simpledashkeybind.dash": "Simply Dash Keybind",
+  "text.simpledashkeybind.dash_ready": "§aDash is ready!",
+  "text.simpledashkeybind.dash_cooldown": "§cDash cooldown: %s§cs",
+  "text.simpledashkeybind.dash_no_enchantment": "§cYou don't have the Dash enchantment on boots!",
+  "enchantment.simpledashkeybind.dash": "Dash",
+  "enchantment.simpledashkeybind.dash.description": "Grants a dash ability when the dash key is pressed."
+}

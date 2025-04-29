@@ -1,7 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "enchantment.simplydashkeybind.dash"
+    "translate": "enchantment.simpledashkeybind.dash"
   },
   "effects": {},
   "exclusive_set": "#minecraft:exclusive_set/boots",

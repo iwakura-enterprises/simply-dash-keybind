@@ -1,8 +1,10 @@
-package enterprises.iwakura.simplydashkeybind.client.commons;
+package enterprises.iwakura.simpledashkeybind.commons;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +12,8 @@ import java.io.File;
 import java.nio.file.Files;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class DashConfig {
 
     private static final Logger logger = LoggerFactory.getLogger(DashConfig.class);
@@ -25,7 +29,7 @@ public class DashConfig {
      * @return The loaded config
      */
     public static DashConfig load() {
-        File configFile = new File("config/simplydashkeybind.json");
+        File configFile = new File("config/simpledashkeybind.json");
         if (!configFile.exists()) {
             var config = new DashConfig();
             config.save();
@@ -48,7 +52,7 @@ public class DashConfig {
      * Saves the config to the file.
      */
     public void save() {
-        File configFile = new File("config/simplydashkeybind.json");
+        File configFile = new File("config/simpledashkeybind.json");
         try {
             if (!configFile.getParentFile().exists()) {
                 configFile.getParentFile().mkdirs();
